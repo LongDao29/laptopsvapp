@@ -90,7 +90,7 @@
                         android:layout_marginTop="9dp"
                         android:text="Sản Phẩm HOT"
                         android:textColor="@color/amber_A100"
-                        android:textSize="23dp"
+                        android:textSize="24dp"
                         android:textStyle="bold" />
 
                 </RelativeLayout>

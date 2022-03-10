@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class frm_homepage extends Fragment implements Itemclick {
+   /////abc
     ArrayList<Laptop> listdata;
     homepagelogo_apdater homepageAdapter;
     ArrayList<Logo> dtoLogos;
