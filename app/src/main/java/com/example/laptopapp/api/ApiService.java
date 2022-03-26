@@ -31,6 +31,7 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface ApiService {
+    ///a
     @GET("api/product")
     Call<ArrayList<Laptop>> laptop();
     @GET("api/newproduct")
