@@ -167,6 +167,22 @@ public class laptopData {
             }
         });
     }
-    
+    public void addtocartlaptop(String Product_id, String user_id, Context context){
+        Retrofit retrofit = APIClient.getClient();
+        ApiService apiService = retrofit.create(ApiService.class);
+        apiService.detail(Product_id).enqueue(new Callback<Laptop>() {
+            @Override
+            public void onResponse(Call<Laptop> call, Response<Laptop> response) {
+                laptops = response.body();
+                CartStoge cartStoge = new CartStoge(context);
+                cartStoge.addtocart(laptops,user_id);
+            }
+
+            @Override
+            public void onFailure(Call<Laptop> call, Throwable t) {
+
+            }
+        });
+    }
 
 }
