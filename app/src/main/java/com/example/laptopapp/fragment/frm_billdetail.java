@@ -50,6 +50,7 @@ public class frm_billdetail extends Fragment {
                        Intent intent = new Intent(root.getContext(), ProductDetails.class);
                        intent.putExtra("product_ID",billDetails.get(position).getProduct_id());
                        startActivity(intent);
+                       console.log('abcs', intent)
                    }
                });
            }
