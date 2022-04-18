@@ -32,6 +32,7 @@ import retrofit2.http.Query;
 
 public interface ApiService {
     ///APiSERVICEs
+    String a ="abcs";
     @GET("api/product")
     Call<ArrayList<Laptop>> laptop();
     @GET("api/newproduct")
