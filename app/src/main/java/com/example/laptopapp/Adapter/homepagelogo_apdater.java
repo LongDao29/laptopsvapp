@@ -20,7 +20,7 @@ import java.util.ArrayList;
 
 public class homepagelogo_apdater extends RecyclerView.Adapter<homepagelogo_apdater.iconhomepageViewHodler> {
     private static OnItemClickListener listener;
-    String abc="a";
+    String abc="ab";
     Context context;
     ArrayList<Logo> List;
     int row = -1;
