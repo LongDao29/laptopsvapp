@@ -53,6 +53,7 @@ public class BillDetaliAdapter extends BaseAdapter {
             holder.billdetail_price = (TextView) convertView.findViewById(R.id.total_price_billdetali);
             holder.Bill_date = (TextView) convertView.findViewById(R.id.datebilldetail);
             holder.Bill_quanliti = (TextView) convertView.findViewById(R.id.quanlity_billdetali);
+            holder.Bill_quanlitiy = (TextView) convertView.findViewById(R.id.quanlity_billdetaliy);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();

@@ -70,7 +70,7 @@ public class BillAdapter extends BaseAdapter {
         }
         Bill bill = this.listData.get(position);
       holder.Bill_id.setText("Mã bill : " + bill.getBill_id());
-      holder.Bill_total.setText("Tổng giá : " + NumberFormat.getNumberInstance(Locale.US).format(bill.getTotal_price()));
+      holder.Bill_total.setText("Tổng Giá : " + NumberFormat.getNumberInstance(Locale.US).format(bill.getTotal_price()));
         Date temp_date = null;
         String Date = "";
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
