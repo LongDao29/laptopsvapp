@@ -50,6 +50,7 @@ public class voucherAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if (convertView == null) {
+            console.log('abs', converView)
             convertView = layoutInflater.inflate(R.layout.list_item_promotion, null);
             holder = new ViewHolder();
             holder.flagView = (ImageView) convertView.findViewById(R.id.imageView_promotion);
