@@ -45,6 +45,7 @@ public class BillDetaliAdapter extends BaseAdapter {
 
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
+        // ViewHolder heheh;
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.list_item_productbill, null);
             holder = new ViewHolder();

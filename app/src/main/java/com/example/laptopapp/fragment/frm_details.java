@@ -43,6 +43,7 @@ public class frm_details extends Fragment {
     ArrayList<Cart> listcart = new ArrayList<>();
     CartStoge cartStoge;
     String user_id;
+    String user;
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

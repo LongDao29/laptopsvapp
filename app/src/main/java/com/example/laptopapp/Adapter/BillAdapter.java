@@ -55,6 +55,7 @@ public class BillAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
 
+
         if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.list_item_history, null);
             holder = new ViewHolder();
@@ -65,6 +66,7 @@ public class BillAdapter extends BaseAdapter {
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
+            holder1 = (ViewHolder) convertView.getTag1();
         }
         Bill bill = this.listData.get(position);
       holder.Bill_id.setText("Mã bill : " + bill.getBill_id());
