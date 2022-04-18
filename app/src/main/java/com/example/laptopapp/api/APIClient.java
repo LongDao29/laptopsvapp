@@ -5,7 +5,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIClient {
-    String abv="1";
+    String abv="Lnik";
 
     private static final String BASE_URL = "https://admin-laptop-app.herokuapp.com/";
 
